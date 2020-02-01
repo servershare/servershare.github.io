@@ -1,3 +1,18 @@
+<script>
+var got = window.location.search
+var got = got.substr(1)
+var got = "https://servers.bubbleapps.io/version-test/server?got=" + got
+ //document.getElementById("site").setAttribute("src", got)
+
+
+document.write("<object type='text/html/css' data='"+ got + "' width='100%' height='100%'>");
+
+
+
+</script>
+
+
+
 <html>
 <link rel="shortcut icon" href="https://dlnbots.github.io/images/connect.png"><title>Devlin Connect</title>
 
@@ -38,5 +53,3 @@
 </style>
 
 <body bgcolor="black">
-
-<object type="text/html/css" data="https://servers.bubbleapps.io/version-test/" width="100%" height="100%">
